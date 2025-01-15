@@ -1,5 +1,7 @@
 //your JS code here. If required.
 
 document.addEventListener('DOMContentLoaded', function(){
-	 document.querySelector('body').innerHTML = `<h1>DOM load success</h1>`
+var newElement = document.createElement("h1");
+     newElement.textContent = "DOM load success";
+     document.body.appendChild(newElement);
 }) 
